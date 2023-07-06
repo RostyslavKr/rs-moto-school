@@ -1,0 +1,94 @@
+.about__bike{
+    background-color: var(--primary-background-color);
+    padding-top: 110px;
+    padding-bottom: 192px;
+    background-image: url('../images/bike.png');
+    background-repeat: no-repeat;
+    background-position: left 50% top 20%;
+
+}
+
+.about__bike__title{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: var(--bold-font);
+    font-size: 40px;
+    color: var(--primary-text-color);
+    margin-bottom: 78px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--button-background-color);
+            border-radius: 2px;
+            position: absolute;
+            bottom: -37px;
+            left: 45%;
+        }
+}
+.about__bike__text{
+    font-weight: var(--normal-font);
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.about__bike__video__description{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: var(--bold-font);
+    font-size: 40px;
+    color: var(--primary-text-color);
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 74px;
+    margin-top: 775px;
+
+    &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--button-background-color);
+            border-radius: 2px;
+            position: absolute;
+            bottom: -37px;
+            left: 45%;
+        }
+}
+.about__bike__video{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1445px;
+    height: 710px;
+}
+.span{
+    font-weight: var(--bold-font);
+}
+
+ @media screen and (min-width:768px) {
+    .about__bike__video {
+            width: 700px;
+            height: 300px;
+        }
+}
+
+@media screen and (min-width:1200px) {
+    .about__bike__video{
+        width: 1100px;
+        height: 600px;
+    }
+}

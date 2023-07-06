@@ -1,0 +1,41 @@
+.header{
+   background-color: var(--primary-background-color);
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: block;
+}
+.header__wrapper__link{
+    display: flex;
+    
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.icon{
+    fill: #fff;
+    &:hover{
+        fill: var(--button-background-color);
+    }
+    &:focus{
+        fill: var(--button-background-color);
+    }
+}
+
+ @media screen and (min-width:768px) {
+}
+
+@media screen and (min-width:1200px) {
+    
+}
+

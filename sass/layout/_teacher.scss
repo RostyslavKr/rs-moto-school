@@ -1,0 +1,48 @@
+.teacher{
+    background-color: var(--primary-background-color);
+    padding-top: 319px;
+    padding-bottom: 228px;
+    background-image: url('../images/bike-and-man.png');
+    background-repeat: no-repeat;
+    background-position: left 60% bottom 120px;
+}
+
+.teacher__title{
+    position: relative;
+    font-weight: var(--bold-font);
+    font-size: 40px ;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    width: 550px;
+    margin-bottom: 80px;
+}
+
+.teacher__title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: var(--button-background-color);
+    border-radius: 2px;
+    position: absolute;
+    bottom: -30px;
+}
+.teacher__text{
+    font-weight: var(--normal-font);
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+    width: 586px;
+}
+
+.wrapper-content{
+    width: 800px;
+    margin-left: 100px;
+}
+
+ @media screen and (min-width:768px) {
+}
+
+@media screen and (min-width:1200px) {
+    
+}

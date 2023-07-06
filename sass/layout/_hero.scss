@@ -1,0 +1,54 @@
+.hero{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 585px;
+    text-align: center;
+    background-color: var(--primary-background-color);
+}
+
+.hero__title{
+    font-weight: var(--bolder-font);
+    font-size: 70px;
+    color: var(--primary-text-color);
+}
+.hero__title__span{
+  font-weight: var(--medium-font);
+  font-size: 40px;
+  color: var(--primary-text-color);
+  margin-bottom: 22px;
+}
+
+.hero__text{
+    width: 428px;
+    color: var(--secondary-text-color);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.hero_wrapper_button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.hero__button{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    border: 2px solid var(--primary-text-color);
+}
+@media screen and (min-width:768px) {
+    .hero {
+        background-image:  url('../images/bike-hero.png');
+        background-size: cover;
+        background-position: center bottom -300%;
+        }}
+
+@media screen and (min-width:1200px) {
+    .hero{
+        background-image: url('../images/bike-hero.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom -300%;
+    }
+    }

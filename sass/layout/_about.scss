@@ -1,0 +1,78 @@
+.about{
+    background-color: var(--secondary-background-color);
+    padding-top: 73px;
+    padding-bottom: 163px;
+    text-align: center;
+    background-image: url('../images/background-about.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 1920px 730px;
+}
+.wrapper-title{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 800px; 
+}
+.about__title__text{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: var(--bold-font);
+    font-size: 40px;
+    color: var(--primary-text-color);
+    margin-bottom: 70px;
+
+    &::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--button-background-color);
+            border-radius: 2px;
+            position: absolute;
+            bottom: -37px;
+            left: 45%;
+}}
+
+
+.about__title{
+    font-weight: var(--normal-font);
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    width: 586px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 157px;
+}
+.about__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 87px;
+}
+.about__list__item{
+    text-align: left;
+    width: 253px;
+}
+
+.about__list__item__text{
+    font-weight: var(--normal-font);
+    font-size: 16px;
+    color: var(--secondary-text-color);
+}
+
+// @media screen and (min-width:768px) {
+//     .hero {
+//         background-image:  url('../images/bike-hero.png');
+//         background-size: 768px 400px;
+
+//         }}
+
+@media screen and (min-width:1200px) {
+    .hero {
+        background-image: url('../images/bike-hero.png');
+        background-repeat: no-repeat;
+        background-size: 1920px 997px;
+        background-position: center bottom -300%;
+    }
+}
