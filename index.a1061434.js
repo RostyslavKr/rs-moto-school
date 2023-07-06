@@ -1,0 +1,2 @@
+const e=document.querySelector("#closeBtn"),o=document.querySelector("#btnApplication"),t=document.querySelector(".backdrop-modal-leave-application");e.addEventListener("click",function(e){console.log(e.target),console.log("close"),t.classList.toggle("is-hidden")}),o.addEventListener("click",function(e){console.log("start"),t.classList.remove("is-hidden")});
+//# sourceMappingURL=index.a1061434.js.map
