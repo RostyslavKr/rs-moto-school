@@ -1,19 +1,30 @@
 {
   "name": "rs-moto-school",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
+  "homepage": "https://goitacademy.github.io/rs-moto-school",
   "scripts": {
-    "start": "parcel *.html",
-    "build": "parcel build *.html --public-url /rs-moto-school/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /rs-moto-school/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/rs-moto-school.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.9.3"
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^2.0.0"
-  }
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

@@ -3,7 +3,7 @@
     padding-top: 73px;
     padding-bottom: 163px;
     text-align: center;
-    background-image: url('../images/background-about.png');
+    background-image: url('../src/images/background-about.png');
     background-repeat: no-repeat;
     background-position: center ;
     background-size: 1920px 730px;
@@ -70,7 +70,7 @@
 
 @media screen and (min-width:1200px) {
     .hero {
-        background-image: url('../images/bike-hero.png');
+        background-image: url('../src/images/bike-hero.png');
         background-repeat: no-repeat;
         background-size: 1920px 997px;
         background-position: center bottom -300%;

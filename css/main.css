@@ -300,14 +300,14 @@ ul {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url("../images/bike-hero.png");
+    background-image: url("../src/images/bike-hero.png");
     background-size: cover;
     background-position: center bottom -300%;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url("../images/bike-hero.png");
+    background-image: url("../src/images/bike-hero.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom -300%;
@@ -318,7 +318,7 @@ ul {
   padding-top: 73px;
   padding-bottom: 163px;
   text-align: center;
-  background-image: url("../images/background-about.png");
+  background-image: url("../src/images/background-about.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px 730px;
@@ -381,7 +381,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url("../images/bike-hero.png");
+    background-image: url("../src/images/bike-hero.png");
     background-repeat: no-repeat;
     background-size: 1920px 997px;
     background-position: center bottom -300%;
@@ -391,7 +391,7 @@ ul {
   background-color: var(--primary-background-color);
   padding-top: 319px;
   padding-bottom: 228px;
-  background-image: url("../images/bike-and-man.png");
+  background-image: url("../src/images/bike-and-man.png");
   background-repeat: no-repeat;
   background-position: left 60% bottom 120px;
 }
@@ -437,7 +437,7 @@ ul {
   margin-right: auto;
   text-align: center;
   background-color: var(--primary-background-color);
-  background-image: url("../images/bike-background.png");
+  background-image: url("../src/images/bike-background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -513,7 +513,7 @@ ul {
   background-color: var(--primary-background-color);
   padding-top: 110px;
   padding-bottom: 192px;
-  background-image: url("../images/bike.png");
+  background-image: url("../src/images/bike.png");
   background-repeat: no-repeat;
   background-position: left 50% top 20%;
 }
@@ -606,7 +606,7 @@ ul {
   padding-top: 196px;
   padding-bottom: 167px;
   background-color: var(--secondary-background-color);
-  background-image: url("../images/box.png");
+  background-image: url("../src/images/box.png");
   background-repeat: no-repeat;
   background-position: left 65% top 50%;
 }
